@@ -19,7 +19,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  myHeading.innerHTML =  storedName +'个人网站 ';
 }
 myButton.onclick = function() {
   setUserName();
